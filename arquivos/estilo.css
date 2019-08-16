@@ -1,0 +1,57 @@
+
+@font-face{
+	font-family: sa;
+	src: local("fontes/Sawasdee.ttf"),url("fontes/Sawasdee.ttf");
+}
+@font-face{
+	font-family: arial;
+	src: local("fontes/Arial.ttf"),url("fontes/Arial.ttf");
+}
+@font-face{
+	font-family: calibri;
+	src: local("fontes/Calibri.ttf"),url("fontes/Calibri.ttf");
+}
+@font-face{
+	font-family: grossa;
+	src: local("fontes/Arial_Black.ttf"),url("fontes/Arial_Black.ttf");
+}
+/*padrões*/
+*{box-sizing: border-box;}
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 16px;
+	font-family: arial;
+	overflow-x: hidden;
+}
+li{list-style: none;}
+a{text-decoration: none;}
+figure{margin: 0px; padding: 0px;}
+li{list-style: none}
+
+.background{
+	display: block;
+	width: 100vw;
+	height: 100vh;
+	background: url("background.png") top no-repeat;
+}
+.controle{
+	display: block;
+	width: 700px;
+	margin: auto;
+	border: 1px solid red;
+}
+.titulo_login{
+	text-align: center;
+	font-family: grossa;
+}
+.formulario{
+	display: block;
+	width: 80%;
+	height: auto;
+	margin: auto;
+}
+.campos{
+	display: block;
+	border: 1px solid red;
+}
